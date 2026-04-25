@@ -4,6 +4,10 @@ local wezterm = require 'wezterm'
 -- This will hold the configuration.
 local config = wezterm.config_builder()
 
+config.initial_cols = 180
+config.initial_rows = 40
+config.font_size = 11
+
 -- Copy and slightly modify "Catppuccin Mocha" theme
 -- Taken from https://github.com/catppuccin/WezTerm#-faq
 local custom = wezterm.color.get_builtin_schemes()["Catppuccin Mocha"]
