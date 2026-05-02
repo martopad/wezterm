@@ -31,7 +31,7 @@ if wezterm.target_triple == 'x86_64-pc-windows-msvc' then
     config.freetype_load_target = 'Light'
     config.freetype_render_target = 'HorizontalLcd'
 else
-    config.font = wezterm.font('Noto Sans Mono')
+    config.font = wezterm.font("CaskaydiaCove Nerd Font Mono", {weight="Regular", stretch="Normal", style="Normal"})
     config.font_size = 11
 end
 
